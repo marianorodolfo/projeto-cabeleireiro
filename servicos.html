@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+
+    #menu3 > a{
+    font-size: 0.9em;
+    margin: 5px;
+    width: 70%;
+    height: 20px;
+    border: 1.5px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    }
+
+    #menu3 > a:hover {
+    color: red;
+    }
+
+    main {
+    background: url(imagens/model-3740609_1280.jpg) no-repeat;
+    background-position:top center;
+    width: 260px;
+    height: 550px;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    #menu4 >a {
+    font-size: 1em;
+    margin: 15px 5px;
+    width: 98%;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    flex: auto;
+    }
+
+    #menu4 > a:hover {
+    color: red;
+    font-size: 1.1em;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <menu id="itens">
+                <ul>
+                    <li id="menu3"><a href="corte.html">CORTE</a> </li>
+                    <li id="menu3"><a href="#">COLORAÇÃO</a> </li>
+                    <li id="menu3"><a href="#">HIDRATAÇÃO</a> </li>
+                    <li id="menu3"><a href="#">RECONSTRUÇÃO</a> </li>
+                    <li id="menu4"> <a href="index.html"><span class="material-symbols-outlined">home</span></a></li>
+
+                </ul>
+            </menu>
+        </section>
+    </main>
+    <script>
+    function clickMenu() {
+    if (itens.style.display == "block") {
+        itens.style.display = "none"
+    } else {
+        itens.style.display = "block"
+    }
+    }
+    </script>
+</body>
+</html>
