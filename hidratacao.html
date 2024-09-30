@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidratação</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="imagens/WhatsApp Image 2024-09-30 at 01.00.28.jpeg" type="image/x-icon">
+    <style>
+
+    #menu3 > a{
+    font-size: 0.9em;
+    margin: 5px;
+    width: 100%;
+    height: 15px;
+    border: 1.5px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1px;
+    padding: 4px;
+    }
+
+    #menu3 > a:hover {
+    color: red;
+    }
+
+    main {
+    background: url(imagens/model-4658341_1280.jpg) no-repeat;
+    background-position:top center;
+    width: 260px;
+    height: 550px;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    #menu4 >a {
+    margin: 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 98%;
+    height: 10px;
+    color: black;
+    text-align: right;
+    flex: auto;
+    }
+
+    #menu4 > a:hover {
+    color: red;
+    font-size: 1.1em;
+    }
+
+    #menu5 > a {
+    font-size: 0.85em;
+    background-color: rgba(255, 255, 255, 0.550);
+    width: 99%;
+    height: 370px;
+    border: 1.5px solid white;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2px;
+    padding: 6px;
+    text-align: center;
+    }
+    
+    img {
+    display: block ;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    }
+
+    img {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: right;
+    background-size: cover;
+    width: 8vw;
+    height: 7vh;
+    }
+
+    img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform 0.4s, border 0.8;
+    }
+
+    #menu6 > a {
+    width: 19%;
+    height: 40px;
+    border: 1.5px solid black;
+    color: white;
+    border-radius: 50px;
+    margin: auto;
+    padding: 4px;
+    }
+    </style>
+</head>
+<body>
+  <main>
+        <section>
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <menu id="itens">
+                <ul>
+                    <li id="menu3"><a href="servicos.html">SERVIÇOS</a> </li>
+                    <li id="menu5"><a href="servicos.html">Nosso serviço de hidratação é ideal para revitalizar e restaurar a saúde dos seus fios, proporcionando brilho, maciez e força. Utilizamos produtos de alta qualidade e técnicas especializadas para tratar profundamente os cabelos, devolvendo a hidratação perdida e combatendo o ressecamento. Seja para cabelos quimicamente tratados, danificados ou naturalmente secos, nossa hidratação é personalizada para atender às necessidades específicas de cada cliente, garantindo resultados visíveis e duradouros. Deixe seus cabelos mais saudáveis e bonitos com o cuidado que eles merecem.
+                    Agende seu horário através do nosso whatsapp.</a> </li>
+                    <li id="menu4"> <a href="index.html"><span class="material-symbols-outlined">home</span></a></li>
+                    <li id="menu6"><a href="#"> <img src="imagens/whatsapp_3670051.png" alt="whatsapp"></a></li>
+
+                </ul>
+            </menu>
+        </section>
+    </main>
+    <script>
+    function clickMenu() {
+    if (itens.style.display == "block") {
+        itens.style.display = "none"
+    } else {
+        itens.style.display = "block"
+    }
+    }
+    </script>  
+</body>
+</html>
