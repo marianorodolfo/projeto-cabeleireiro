@@ -16,8 +16,8 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
     background-size: cover;
-    width: 9vw;
-    height: 8vh;
+    width: 45px;
+    height: 45px
     }
 
     img:hover {
@@ -25,6 +25,63 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform 0.4s, border 0.8;
     }
+
+
+/*VISUALIZAÇÃO PARA TABLET:
+----------------------------------------------------------------
+*/
+    @media screen and (min-width: 768px) and (max-width:992px) {
+#burger {
+display: none;
+}
+
+menu {
+display: block;
+}
+
+menu > ul > li {
+display: inline-block;
+}
+
+main {
+width: 768px;
+}
+
+img {
+    margin-top: 450px;
+    margin: 20px;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    background-size: cover;
+    width: 45px;
+    height: 45px
+    }
+
+#itens{
+    display: block;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+    border: 10px;}
+
+#menus > a{
+    font-size: 0.9em;
+    margin: 5px;
+    width: 90%;
+    height: 20px;
+    border: 1.5px solid red;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 6px;
+    background-color: rgba(255, 0, 0, 0.447);
+}
+
+}
     </style>
 </head>
 <body>
