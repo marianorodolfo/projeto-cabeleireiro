@@ -88,8 +88,8 @@
     padding-top: 0px;
     text-align: right;
     background-size: cover;
-    width: 8vw;
-    height: 7vh;
+    width: 40px;
+    height: 40px;
     }
 
     img:hover {
@@ -99,14 +99,108 @@
     }
 
     #menu6 > a {
-    width: 19%;
-    height: 40px;
-    border: 1.5px solid black;
-    color: white;
+    width: 38px;
+    height: 39px;
+    border: 1.5px solid white;
     border-radius: 50px;
     margin: auto;
+    margin-top: 10px;
     padding: 4px;
     }
+
+    /*VISUALIZAÇÃO PARA TABLET:
+----------------------------------------------------------------
+*/
+    @media screen and (min-width: 768px) and (max-width:992px) {
+#burger {
+display: none;
+}
+
+menu {
+display: block;
+}
+
+menu > ul > li {
+display: inline-block;
+} 
+
+main {
+width: 768px;
+background-image: url(imagens/tablet-hidratação.jpg);
+}
+
+#menu3 > a{
+    font-size: 1.1em;
+    margin-left: 35px;
+    width: 100%;
+    height: 20px;
+    border: 1.5px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+    }
+
+    #menu3 > a:hover {
+    color: red;
+    }
+
+    #menu5 > a {
+    font-size: 1.1em;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.550);
+    width: 80%;
+    height: 370px;
+    border: 1.5px solid white;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2px;
+    margin-left: 100px;
+    padding: 6px;
+    text-align: center;
+    }
+
+    img {
+    display: block ;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    }
+
+    img {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: right;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    }
+
+    img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform 0.4s, border 0.8;
+    }
+
+    #menu6 > a {
+    width: 39px;
+    height: 39px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 4px;
+    }
+
+    #menu4 {}
+}
     </style>
 </head>
 <body>

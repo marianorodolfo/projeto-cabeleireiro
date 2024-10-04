@@ -11,6 +11,19 @@
     <link rel="shortcut icon" href="imagens/WhatsApp Image 2024-09-30 at 01.00.28.jpeg" type="image/x-icon">
     <style>
 
+    #menu3a > a {
+    font-size: 0.9em;
+    margin: 5px;
+    width: 145px;
+    height: 20px;
+    border: 1.5px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+}
+
     #menu3 > a{
     font-size: 0.9em;
     margin: 5px;
@@ -83,6 +96,102 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform 0.4s, border 0.8;
     }
+
+    /*VISUALIZAÇÃO PARA TABLET:
+----------------------------------------------------------------
+*/
+    @media screen and (min-width: 768px) and (max-width:992px) {
+#burger {
+display: none;
+}
+
+menu {
+display: block;
+}
+
+menu > ul > li {
+display: inline-block;
+} 
+
+main {
+width: 768px;
+background-image: url(imagens/tablet\ -\ serviços.jpg);
+}
+
+#menu3 > a{
+    font-size: 1em;
+    width: 140px;
+    height: 22px;
+    border: 1.5px solid white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 1px;
+    margin: center;
+    margin-top: 0px;
+    }
+
+#menu3 > a:hover {
+    color: red;
+    background-color: lightslategray;
+    }
+
+#menu3a > a:hover {
+    color: red;
+    background-color: lightslategray;
+    }
+
+#menu3a > a{
+    font-size: 1em;
+    width: 90px;
+    height: 15px;
+    border: 1.5px solid white;
+    text-align: right;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    margin: center;
+}
+
+img {
+    margin-top: 360px;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    }
+
+img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform 0.4s, border 0.8;
+    }
+
+#menu4 >a {
+    margin: 15px 5px;
+    width: 98%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    flex: auto;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    width: 50px;
+    height: 40px;
+    padding-top: 9px;
+    }
+
+#menu4 > a:hover {
+    color: red;
+    background-color: lightslategray;
+    }
+}
     </style>
 </head>
 <body>
@@ -91,7 +200,7 @@
     <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
             <menu id="itens">
                 <ul>
-                    <li id="menu3"><a href="corte.html">CORTE</a> </li>
+                    <li id="menu3a"><a href="corte.html">CORTE</a> </li>
                     <li id="menu3"><a href="coloracao.html">COLORAÇÃO</a> </li>
                     <li id="menu3"><a href="hidratacao.html">HIDRATAÇÃO</a> </li>
                     <li id="menu3"><a href="reconstrucao.html">RECONSTRUÇÃO</a> </li>

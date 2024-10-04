@@ -30,7 +30,7 @@
     }
 
     main {
-    background: url(imagens/woman-3153999_1280.jpg) no-repeat;
+    background: url(imagens/celular-reconstrução.jpg) no-repeat;
     background-position:bottom center;
     width: 260px;
     height: 550px;
@@ -88,8 +88,8 @@
     padding-top: 0px;
     text-align: right;
     background-size: cover;
-    width: 8vw;
-    height: 7vh;
+    width: 40px;
+    height: 40px;
     }
 
     img:hover {
@@ -99,7 +99,7 @@
     }
 
     #menu6 > a {
-    width: 19%;
+    width: 40px;
     height: 40px;
     border: 1.5px solid white;
     color: white;
@@ -107,6 +107,112 @@
     margin: auto;
     padding: 4px;
     }
+
+    /*VISUALIZAÇÃO PARA TABLET:
+----------------------------------------------------------------
+*/
+    @media screen and (min-width: 768px) and (max-width:992px) {
+#burger {
+display: none;
+}
+
+menu {
+display: block;
+}
+
+menu > ul > li {
+display: inline-block;
+} 
+
+main {
+width: 768px;
+background-image: url(imagens/woman-3153999_1280.jpg);
+}
+
+#menu3 > a{
+    font-size: 1.1em;
+    width: 100%;
+    height: 20px;
+    border: 1.5px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    padding: 6px;
+    }
+
+#menu3 > a:hover {
+    color: red;
+    }
+
+#menu5 > a {
+    font-size: 1.1em;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.550);
+    width: 80%;
+    height: 370px;
+    border: 1.5px solid white;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 100px;
+    padding: 6px;
+    text-align: center;
+    }
+
+img {
+    display: block ;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    }
+
+img {
+    padding-top: -2px;
+    padding-bottom: -2px;
+    width: 43px;
+    height: 43px;
+    }
+
+img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform 0.4s, border 0.8;
+    }
+
+#menu6 > a {
+    width: 42px;
+    height: 42px;
+    border: 1.5px solid white;
+    color: white;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    }
+
+#menu4 >a {
+    margin: 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    width: 98%;
+    height: 10px;
+    color: white;
+    text-align: left;
+    flex: auto;
+    }
+
+#menu4 > a:hover {
+    color: red;
+    font-size: 1.1em;
+    }
+
+}
     </style>
 </head>
 <body>
@@ -119,7 +225,7 @@
                     <li id="menu5"><a href="reconstrucao.html">Nosso serviço de reconstrução é voltado para recuperar cabelos danificados por química, calor ou agressões externas. Utilizamos produtos profissionais com alta concentração de ativos, que penetram profundamente na fibra capilar para restaurar sua estrutura, devolvendo força, elasticidade e resistência aos fios fragilizados. Ideal para quem deseja recuperar a saúde dos cabelos, o tratamento é personalizado para atender às necessidades específicas de cada cliente, proporcionando resultados imediatos de reconstrução, brilho e maciez. Transforme seus fios com um cuidado intensivo e especializado.
                     Agende seu horário através do nosso whatsapp.</a> </li>
                     <li id="menu4"> <a href="index.html"><span class="material-symbols-outlined">home</span></a></li>
-                    <li id="menu6"><a href="https://wa.me/+351911234567?text=Olá, gostaria de marcar um horário, por favor!" target="_blank""> <img src="imagens/whatsapp_3670051.png" alt="whatsapp"></a></li>
+                    <li id="menu6"><a href="https://wa.me/+351911234567?text=Olá, gostaria de marcar um horário, por favor!" target="_blank"> <img src="imagens/whatsapp_3670051.png" alt="whatsapp"></a></li>
 
                 </ul>
             </menu>

@@ -89,18 +89,18 @@
     padding-top: 0px;
     text-align: right;
     background-size: cover;
-    width: 8vw;
-    height: 7vh;
+    width: 40px;
+    height: 40px;
     }
 
     img:hover {
     border: 2px solid rgba(255, 255, 255, 0.637);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
-    transition: transform 0.4s, border 0.8;
+    transition: transform 0.4s, border 1;
     }
 
     #menu6 > a {
-    width: 19%;
+    width: 39px;
     height: 40px;
     border: 1.5px solid white;
     color: white;
@@ -108,6 +108,121 @@
     margin: auto;
     padding: 4px;
     }
+
+    /*VISUALIZAÇÃO PARA TABLET:
+----------------------------------------------------------------
+*/
+    @media screen and (min-width: 768px) and (max-width:992px) {
+#burger {
+display: none;
+}
+
+menu {
+display: block;
+}
+
+menu > ul > li {
+display: inline-block;
+} 
+
+main {
+width: 768px;
+background-image: url(imagens/tablet-corte.jpg);
+}
+
+#menu5 > a {
+    font-size: 1.1em;
+    line-height:30px;
+    background-color: rgba(255, 255, 255, 0.350);
+    width: 80%;
+    height: 360px;
+    border: 1.5px solid white;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 12px;
+    margin-left: 105px;
+    padding: 6px;
+    text-align: center;
+    }
+
+#menu3 > a{
+    font-size: 0.9em;
+    width: 100%;
+    height: 15px;
+    border: 1.5px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 30px;
+    padding: 6px;
+    padding-bottom: 10px;
+    }
+
+#menu3 > a:hover {
+    color: red;
+    }
+
+img {
+    display: block ;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    }
+
+img {
+    margin-top: -2px;
+    margin-left: -2px;
+    padding-top: 0px;
+    text-align: right;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+    }
+
+img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform 0.4s, border 0.8;
+    }
+
+#menu6 > a {
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    margin-top: 60px;
+    padding: 5px;
+    }
+
+#menu4 >a {
+    margin: 30px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    }
+
+#menu4 > a:hover {
+    color: red;
+    font-size: 1.1em;
+    background-color: lightslategray;
+    }
+
+    span {
+    align-items: center;
+    padding-left: 5px;
+    padding-top: -15px;
+    margin-top: 16px;
+    }
+}
     </style>
 </head>
 <body>
@@ -120,7 +235,7 @@
                     <li id="menu5"><a href="corte.html">Nosso serviço de corte de cabelo feminino é pensado para realçar sua beleza e personalidade, combinando técnica e estilo com as últimas tendências. Nossos profissionais estão preparados para oferecer cortes clássicos ou modernos, sempre adaptados ao seu tipo de cabelo e preferência. Cada corte é personalizado para garantir leveza, movimento e harmonia, transformando o visual com elegância e confiança. Seja para uma mudança radical ou apenas uma renovação, estamos prontos para oferecer um atendimento cuidadoso e resultados que superem suas expectativas.
                     Agende seu horário através do nosso whatsapp.</a> </li>
                     <li id="menu4"> <a href="index.html"><span class="material-symbols-outlined">home</span></a></li>
-                    <li id="menu6"><a href="https://wa.me/+351911234567?text=Olá, gostaria de marcar um horário, por favor!" target="_blank""> <img src="imagens/whatsapp_3670051.png" alt="whatsapp"></a></li>
+                    <li id="menu6"><a href="https://wa.me/+351911234567?text=Olá, gostaria de marcar um horário, por favor!" target="_blank"> <img src="imagens/whatsapp_3670051.png" alt="whatsapp"></a></li>
 
                 </ul>
             </menu>
