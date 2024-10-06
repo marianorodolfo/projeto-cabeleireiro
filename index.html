@@ -82,8 +82,29 @@ img {
 #menus {
     margin: 6px;
 }
-
 }
+
+/*VISUALIZAÇÃO PARA TELAS GRANDES:
+----------------------------------------------------------------
+*/
+@media screen and (min-width: 992px) and (max-width:1200px){
+#burger {
+display: none;
+}
+
+menu {
+display: block;
+}
+
+menu > ul > li {
+display: inline-block;
+}
+
+main {
+width: 1200px;
+}
+}
+
     </style>
 </head>
 <body>
